@@ -3,46 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
-    <style type="text/tailwindcss">
-      @theme {
-        --color-clifford: #da373d;
-      }
-    </style>
   </head>
   <body>
-    <div class="h-full bg-linear-to-bl from-violet-500 to-fuchsia-500">
+    <div
+      class="min-h-screen bg-gradient-to-bl from-violet-500 to-fuchsia-500 flex items-center justify-center px-4"
+    >
       <div
-        class="bg-transparent h-160 space-y-4 flex flex-col justify-center items-center"
+        class="bg-transparent space-y-4 flex flex-col justify-center items-center text-center w-full max-w-md"
       >
         <div class="h-20 w-20">
           <img
             src="/assets/logo toko.png"
-            class="rounded-full"
+            class="rounded-full mx-auto"
             alt="Logo Toko AD"
           />
         </div>
-        <div class="flex justify-center items-center">
-          <h1 class="font-bold text-white text-lg">
-            Selamat Datang di Toko AD Souvenir Gift &#128522;
-          </h1>
-        </div>
-        <div class="text-white items-center justify-center flex flex-col">
-          <p class="text-sm">
-            Toko kami menyediakan berbagai kebutuhan souvenir dan gift.
-          </p>
-        </div>
-        <a href="https://shopee.co.id/tokoadsouvenirgift">
+        <h1 class="font-bold text-white text-lg">
+          Selamat Datang di Toko AD Souvenir Gift &#128522;
+        </h1>
+        <p class="text-sm text-white">
+          Toko kami menyediakan berbagai kebutuhan souvenir dan gift.
+        </p>
+
+        <a href="https://shopee.co.id/tokoadsouvenirgift" class="w-full">
           <div
-            class="w-85 rounded-xl border-white h-15 bg-transparent border-solid border-1 flex items-center justify-center text-white hover:bg-linear-65 from-blue-500 to-pink-500 font-bold"
+            class="w-full rounded-xl border border-white h-12 bg-transparent flex items-center justify-center text-white hover:bg-gradient-to-r from-blue-500 to-pink-500 font-bold"
           >
             Link Toko Shopee
           </div>
         </a>
-        <a href="https://wa.me/+6287832282111">
+
+        <a href="https://wa.me/+6287832282111" class="w-full">
           <div
-            class="w-85 rounded-xl border-white h-15 bg-transparent border-solid border-1 flex items-center justify-center text-white hover:bg-linear-65 from-blue-500 to-pink-500 font-bold"
+            class="w-full rounded-xl border border-white h-12 bg-transparent flex items-center justify-center text-white hover:bg-gradient-to-r from-blue-500 to-pink-500 font-bold"
           >
             Link Whatsapp Toko
           </div>
